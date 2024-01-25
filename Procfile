@@ -1,1 +1,0 @@
-worker: python variant-a.py
