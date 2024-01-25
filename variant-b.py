@@ -231,7 +231,7 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--port", type=int, default=8056, help="Port number")
+    parser.add_argument("--port", type=int, default=8051, help="Port number")
     args = parser.parse_args()
 
     app.run_server(debug=True, port=args.port)
