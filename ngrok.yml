@@ -1,0 +1,9 @@
+version: 2
+authtoken: 2bLzxuKHyiHeLAk6hZVrvBEYXwp_3cWdSg2ZaSJLSkyhyLJNt
+tunnels:
+  first:
+    proto: http
+    addr: http://localhost:8050
+  second:
+    proto: http
+    addr: 8051
